@@ -1,0 +1,82 @@
+
+$num-cols: 12 !default;
+$gutter-width: 1.5rem !default;
+
+$small-screen-up: 601px !default;
+$medium-screen-up: 993px !default;
+$large-screen-up: 1201px !default;
+
+$medium-and-up: "(min-width : #{$small-screen-up})" !default;
+$large-and-up: "(min-width : #{$medium-screen-up})" !default;
+
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+
+	// Clear floating children
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+
+	.col {
+		float: left;
+		box-sizing: border-box;
+		padding: 0 $gutter-width / 2;
+		min-height: 1px;
+
+		$i: 1;
+		@while $i <= $num-cols {
+
+		    $perc: $i / $num-cols * 100%;
+			&.small-#{$i} {
+				width: $perc;
+			}
+
+			&.small-offset-#{$i} {
+				margin-left: $perc;
+			}
+
+			$i: $i + 1;
+		}
+
+
+		@media #{$medium-and-up} {
+
+			$i: 1;
+			@while $i <= $num-cols {
+				$perc: $i / $num-cols * 100%;
+				&.medium-#{$i} {
+					width: $perc;
+				}
+
+				&.medium-offset-#{$i} {
+					margin-left: $perc;
+				}
+
+				$i: $i + 1
+			}
+		} //media
+
+		@media #{$large-and-up} {
+
+			$i: 1;
+			@while $i <= $num-cols {
+				$perc: $i / $num-cols * 100%;
+				&.large-#{$i} {
+					width: $perc;
+				}
+
+				&.large-offset-#{$i} {
+					margin-left: $perc;
+				}
+
+				$i: $i + 1;
+			}
+		} //media
+
+	} // col
+}// row
+
