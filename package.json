@@ -1,6 +1,6 @@
 {
   "name": "react-sigrid",
-  "version": "0.0.5",
+  "version": "0.1.0",
   "description": "A lightweight, responsive simple grid",
   "main": "./dist/main.js",
   "scripts": {
