@@ -104,7 +104,7 @@
 					_react2.default.createElement(
 						'p',
 						null,
-						'A lightweight, responsive simple grid on React.'
+						'A lightweight, responsive simple grid component for React'
 					),
 					_react2.default.createElement(
 						'div',

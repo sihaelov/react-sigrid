@@ -12,7 +12,7 @@ class Header extends React.Component{
 		return (
 			<div>
 				<h1>React Sigrid Demo</h1>
-				<p>A lightweight, responsive simple grid on React.</p>
+				<p>A lightweight, responsive simple grid component for React</p>
 
 				<div>
 					<iframe src="https://ghbtns.com/github-btn.html?user=sihaelov&repo=react-sigrid&type=star&count=true&size=large" frameBorder="0" scrolling="0" width="160px" height="30px"></iframe>
