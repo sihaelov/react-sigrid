@@ -1,0 +1,37 @@
+{
+  "name": "react-sigrid-demo",
+  "version": "0.0.1",
+  "description": "react-sigrid-demo",
+  "main": "./dist/main.js",
+  "scripts": {
+    "dev": "webpack-dev-server --progress --inline --hot --config webpack.config.js",
+    "build": "webpack --progress --config webpack.config.js"
+  },
+  "author": "Michael Sinov",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "react-highlight": "^0.8.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-register": "^6.9.0",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.13.1",
+    "eslint-loader": "^1.3.0",
+    "eslint-plugin-react": "^5.2.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "node-sass": "^3.8.0",
+    "react-sigrid": "0.0.5",
+    "sass-loader": "^4.0.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-bundle-tracker": "0.0.93",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

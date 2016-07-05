@@ -1,0 +1,42 @@
+
+$color: #bbdefb;
+
+.main{
+	text-align: center;
+	margin-bottom: 50px;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.install {
+	background-color: $color;
+	padding: 1em 1.5em;
+	border-radius: 3px;
+}
+
+
+.demo {
+	
+	.row{
+		margin-top: 20px;
+		.col {
+			border-radius: 3px;
+			background-color: $color;
+			border: 1px solid #fff;
+			
+			code {
+				padding: 1.2em 0;
+				display: block;	
+			}
+			
+		}
+	}
+
+}
+
+pre{
+	text-align: left;
+}
+
+h2{
+    margin-top: 2em;
+}
