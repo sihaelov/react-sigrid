@@ -1,6 +1,6 @@
 # React (Si)mple (grid)
 
-A lightweight, responsive simple grid on React.
+A lightweight, responsive simple grid component for React.
 
 ## Installation
 
@@ -22,7 +22,7 @@ import {Row, Col} from 'react-sigrid'
 </Row>
 ```
 
-You can offset a column as per your wish.
+You can offset a column as you wish.
 
 ```js
 import {Row, Col} from 'react-sigrid'
