@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sihaelov/react-sigrid.svg?branch=master)](https://travis-ci.org/sihaelov/react-sigrid)
+
 # React (Si)mple (grid)
 
 A lightweight, responsive simple grid component for React.
