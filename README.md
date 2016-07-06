@@ -67,6 +67,8 @@ smallOffset  |number
 mediumOffset |number
 largeOffset  |number
 
+##[Demo](https://sihaelov.github.io/react-sigrid/)
+[https://sihaelov.github.io/react-sigrid/](https://sihaelov.github.io/react-sigrid/)
 
 ## License
 
