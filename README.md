@@ -4,6 +4,9 @@
 
 A lightweight, responsive simple grid component for React.
 
+##[Demo](https://sihaelov.github.io/react-sigrid/)
+[https://sihaelov.github.io/react-sigrid/](https://sihaelov.github.io/react-sigrid/)
+
 ## Installation
 
 ```js
@@ -66,9 +69,6 @@ Name         | Type
 smallOffset  |number
 mediumOffset |number
 largeOffset  |number
-
-##[Demo](https://sihaelov.github.io/react-sigrid/)
-[https://sihaelov.github.io/react-sigrid/](https://sihaelov.github.io/react-sigrid/)
 
 ## License
 
