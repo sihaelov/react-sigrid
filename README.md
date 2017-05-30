@@ -4,7 +4,7 @@
 
 A lightweight, responsive simple grid component for React.
 
-##[Demo](https://sihaelov.github.io/react-sigrid/)
+## Demo
 [https://sihaelov.github.io/react-sigrid/](https://sihaelov.github.io/react-sigrid/)
 
 ## Installation
